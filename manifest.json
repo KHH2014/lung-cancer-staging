@@ -1,9 +1,10 @@
 {
     "name": "Lung Cancer Staging Program",
-    "short-name": "Cancer Staging",
-    "icon": [
+    "short_name": "Cancer Staging",
+    "icons": [
         {
-            "src": "icon.png"
+            "src": "icon.png",
+            "type": "image/png"
         }
     ],
     "start_url": "app.html",
