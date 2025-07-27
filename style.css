@@ -1,8 +1,14 @@
 body{
     font-family: sans-serif;
     margin: 8px;
+    text-align: center;
 }
-.flex-box{
-    display: flex;
-    justify-content: center;
+select{
+    padding: 4px;
+}
+table{
+    margin: auto;
+}
+td{
+    padding: 4px;
 }
