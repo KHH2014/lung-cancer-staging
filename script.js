@@ -5,8 +5,8 @@ const stages = [
     ["IIIA", "IIB", "IIB", "IIB", "IIB", "IVA", "IVB"],
     ["IIB", "IIB", "IIB", "IIC", "IIC", "IVA", "IVB"]
 ];
-function submit(){
-    let TM=document.getElementById("T/M").value
-    let N=document.getElementById("N").value
-    document.getElementById("result").innerHTML=stages[N][TM]
+function submit() {
+    let TM = document.getElementById("tm").value
+    let N = document.getElementById("n").value
+    document.getElementById("result").innerHTML = stages[N][TM]
 }

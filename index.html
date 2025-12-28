@@ -1,9 +1,49 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="manifest" href="manifest.json">
-    </head>
-    <body>
-        <h1>Click <a>here</a> to add to home screen.</h1>
-    </body>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <h2>T/M</h2>
+            </td>
+            <td>
+                <select id="tm">
+                    <option selected disabled>Select</option>
+                    <option value="0">T1</option>
+                    <option value="1">T2a</option>
+                    <option value="2">T2b</option>
+                    <option value="3">T3</option>
+                    <option value="4">T4</option>
+                    <option value="5">M1a/b</option>
+                    <option value="6">M1c</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>N</h2>
+            </td>
+            <td>
+                <select id="n">
+                    <option selected disabled>Select</option>
+                    <option value="0">N0</option>
+                    <option value="1">N1</option>
+                    <option value="2">N2a</option>
+                    <option value="3">N2b</option>
+                    <option value="4">N3</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <a onclick="submit()"><button>Submit</button></a>
+    <h2 id="result"></h2>
+</body>
+
 </html>
